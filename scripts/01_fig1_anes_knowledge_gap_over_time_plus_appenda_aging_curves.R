@@ -109,23 +109,23 @@ dotplot_ed2 <- data.frame(pk_ed2[pk_ed2$term == "ed2", "estimate"],
 	                      year = as.numeric(as.character(pk_ed2$year[seq(1, nrow(pk_ed2), 2)])))
 
 ggplot(dotplot_ed2, aes(x = year, y = estimate)) +
-geom_point() + 
-geom_smooth(method = lm, se = FALSE, size = .8, alpha = .7) +
-labs(x = "", y = "BS and Above \u2013 HS and Below") +
-scale_x_continuous(breaks = dotplot_ed2$year, labels = dotplot_ed2$year) + 
-scale_y_continuous(breaks = seq(0, .5, .1), labels = nolead0s(seq(0, .5, .1)), lim = c(0, .5)) +
-theme_minimal(base_size = 9) +
-theme(panel.grid.major = element_line(color = "#F0F0F0", size = .25)) +
-theme(panel.grid.minor = element_blank()) +
-theme(axis.ticks = element_blank()) +
-theme(legend.position = "none") +
-theme(plot.title = element_text(color = "#525252", size = 10, vjust = 1.25)) +
-theme(axis.text.x = element_text(size = 12, color = "#636363", angle = 45, hjust = 1)) +
-theme(axis.text.y = element_text(size = 12, color = "#636363")) +
-theme(axis.title.x = element_text(size = 14, color = "#636363", vjust = 0)) +
-theme(axis.title.y = element_text(size = 14, color = "#636363", vjust = 1.25)) +
-theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm")) + 
-theme(strip.background = element_rect(fill = 'white', color='white'))
+  geom_point() + 
+  geom_smooth(method = lm, se = FALSE, size = .8, alpha = .7) +
+  labs(x = "", y = "BS and Above \u2013 HS and Below") +
+  scale_x_continuous(breaks = dotplot_ed2$year, labels = dotplot_ed2$year) + 
+  scale_y_continuous(breaks = seq(0, .5, .1), labels = nolead0s(seq(0, .5, .1)), lim = c(0, .5)) +
+  theme_minimal(base_size = 9) +
+  theme(panel.grid.major = element_line(color = "#F0F0F0", size = .25)) +
+  theme(panel.grid.minor = element_blank()) +
+  theme(axis.ticks = element_blank()) +
+  theme(legend.position = "none") +
+  theme(plot.title = element_text(color = "#525252", size = 10, vjust = 1.25)) +
+  theme(axis.text.x = element_text(size = 12, color = "#636363", angle = 45, hjust = 1)) +
+  theme(axis.text.y = element_text(size = 12, color = "#636363")) +
+  theme(axis.title.x = element_text(size = 14, color = "#636363", vjust = 0)) +
+  theme(axis.title.y = element_text(size = 14, color = "#636363", vjust = 1.25)) +
+  theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm")) + 
+  theme(strip.background = element_rect(fill = 'white', color='white'))
 
 ggsave(file = "selexp/figs/know_gap_ed_lm_anes.pdf", dpi = 450)
 
@@ -133,23 +133,23 @@ dotplot_int2 <- data.frame(pk_int_10[pk_int_10$term == "polint2", "estimate"],
 	                      year = as.numeric(as.character(pk_int_10$year[seq(1, nrow(pk_int_10), 2)])))
 
 ggplot(dotplot_int2, aes(x = year, y = estimate)) +
-geom_point() + 
-geom_smooth(method = lm, se = FALSE, size = .8, alpha = .7) +
-labs(x = "", y = "Follow Some of the Time or More \u2013 Follow Now or Then or Less") + 
-scale_x_continuous(breaks = dotplot_int2$year, labels = dotplot_int2$year) +  
-scale_y_continuous(breaks = seq(0, .5, .1), labels = nolead0s(seq(0, .5, .1)), lim = c(0, .5)) +
-theme_minimal(base_size = 9) +
-theme(panel.grid.major = element_line(color = "#F0F0F0", size = .25)) +
-theme(panel.grid.minor = element_blank()) +
-theme(axis.ticks = element_blank()) +
-theme(legend.position = "none") +
-theme(plot.title = element_text(color = "#525252", size = 10, vjust = 1.25)) +
-theme(axis.text.x = element_text(size = 12, color = "#636363", angle = 45, hjust = 1)) +
-theme(axis.text.y = element_text(size = 12, color = "#636363")) +
-theme(axis.title.x = element_text(size = 14, color = "#636363", vjust = 0)) +
-theme(axis.title.y = element_text(size = 14, color = "#636363", vjust = 1.25)) +
-theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm")) + 
-theme(strip.background = element_rect(fill = 'white', color='white'))
+  geom_point() + 
+  geom_smooth(method = lm, se = FALSE, size = .8, alpha = .7) +
+  labs(x = "", y = "Follow Some of the Time or More \u2013 Follow Now or Then or Less") + 
+  scale_x_continuous(breaks = dotplot_int2$year, labels = dotplot_int2$year) +  
+  scale_y_continuous(breaks = seq(0, .5, .1), labels = nolead0s(seq(0, .5, .1)), lim = c(0, .5)) +
+  theme_minimal(base_size = 9) +
+  theme(panel.grid.major = element_line(color = "#F0F0F0", size = .25)) +
+  theme(panel.grid.minor = element_blank()) +
+  theme(axis.ticks = element_blank()) +
+  theme(legend.position = "none") +
+  theme(plot.title = element_text(color = "#525252", size = 10, vjust = 1.25)) +
+  theme(axis.text.x = element_text(size = 12, color = "#636363", angle = 45, hjust = 1)) +
+  theme(axis.text.y = element_text(size = 12, color = "#636363")) +
+  theme(axis.title.x = element_text(size = 14, color = "#636363", vjust = 0)) +
+  theme(axis.title.y = element_text(size = 14, color = "#636363", vjust = 1.25)) +
+  theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm")) + 
+  theme(strip.background = element_rect(fill = 'white', color='white'))
 
 ggsave(file = "selexp/figs/know_gap_int_lm_anes.pdf", dpi = 450)
 
