@@ -5,7 +5,8 @@ Replication materials for the chapter 'Don't Expose Yourself: Discretionary Expo
 ### Data
 
 * [ANES CDF (.7z)](data/anes_timeseries_cdf_stata12.7z)
-* [NAES 2008 Online (.7z)](data/naes08_online_all_waves_data_full.7z)
+* [NAES 2008 Online (.7z)](data/naes08_online_all_waves_data_full.7z) and [Weights](data/naes08_online_weights.dta)
+* [YG Pilot (Only Relevant Cols)](data/yg_pilot.csv)
 
 ### Scripts
 
