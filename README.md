@@ -20,6 +20,10 @@ Replication materials for the chapter 'Don't Expose Yourself: Discretionary Expo
 
 * [Figures](figs/)
 
+### Manuscript
+
+*[Manuscript (pdf)](http://gsood.com/research/papers/selexp.pdf)
+
 ### Suggested Citation
 
 Sood, Gaurav, and Yphtach Lelkes. 201x. "Don't Expose Yourself: Discretionary Exposure to Political Information." Oxford Research Encyclopedia of Politics. 
