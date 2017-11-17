@@ -10,7 +10,8 @@ Replication materials for the chapter 'Don't Expose Yourself: Discretionary Expo
 ### Scripts
 
 * [Figure 1: Knowledge Gap Over Time and Appendix Figure A1: Aging Curves](scripts/01_fig1_anes_knowledge_gap_over_time_plus_appenda_aging_curves.R)
-* [Figure 4](scripts/)
+* [Figure 2: Perceived Bias of News Organizations by Party Identification](scripts/02_fig2_yg_pilot_media_bias.R)
+* [Figure 4: Partisanship of Audiences of Entertainment Shows](scripts/04_fig4_partisan_entertainment.R)
 
 ### Figures
 
