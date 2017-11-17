@@ -9,7 +9,7 @@ Replication materials for the chapter 'Don't Expose Yourself: Discretionary Expo
 
 ### Scripts
 
-* [Figure 1: Knowledge Gap Over Time](scripts/01_fig1_anes_knowledge_gap_over_time.R)
+* [Figure 1: Knowledge Gap Over Time and Appendix Figure A1](scripts/01_fig1_anes_knowledge_gap_over_time_plus_appenda_aging_curves.R)
 * [Figure 4](scripts/)
 
 ### Suggested Citation
