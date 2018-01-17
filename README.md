@@ -26,4 +26,4 @@ Replication materials for the chapter 'Don't Expose Yourself: Discretionary Expo
 
 ### Suggested Citation
 
-Sood, Gaurav, and Yphtach Lelkes. 201x. "Don't Expose Yourself: Discretionary Exposure to Political Information." Oxford Research Encyclopedia of Politics. 
+Sood, Gaurav; Lelkes, Yphtach. (DATE). “Selective Exposure to Partisan Media.” In Oxford Research Encyclopedia of Politics, Ed. William Thompson. New York: Oxford University Press. Retrieved (DATE), from http://politics.oxfordre.com/view/10.1093/acrefore/9780190228637.001.0001/acrefore-9780190228637-e-39
